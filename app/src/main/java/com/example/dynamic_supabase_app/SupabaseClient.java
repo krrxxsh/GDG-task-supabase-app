@@ -14,7 +14,7 @@ public class SupabaseClient {
 
     // Query: latest row by id; change to created_at.desc if you have that column
     private static final String PROMO_QUERY =
-            SUPABASE_PROJECT_URL + "/rest/v1/promo?select=message,image_url&order=id.desc&limit=1";
+            SUPABASE_PROJECT_URL + "/rest/v1/promo?select=message,subtitle,image_url&order=id.desc&limit=1";
 
     private final OkHttpClient client = new OkHttpClient();
 
