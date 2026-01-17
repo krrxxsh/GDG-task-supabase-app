@@ -59,11 +59,12 @@ A production-ready Android application that demonstrates modern mobile developme
 
 2. Open the project in Android Studio
 
-3. Configure Supabase credentials in `SupabaseClient.java`:
+3. Configure Supabase credentials in `SupabaseClient.java` (replace existing hardcoded values):
    ```java
    private static final String SUPABASE_PROJECT_URL = "your-project-url";
    private static final String SUPABASE_ANON_KEY = "your-anon-key";
    ```
+   **Note**: The repository contains demo credentials. Replace them with your own Supabase project credentials.
 
 4. Sync Gradle dependencies
 
